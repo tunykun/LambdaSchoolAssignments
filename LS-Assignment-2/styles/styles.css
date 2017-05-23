@@ -1,0 +1,102 @@
+* { 
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+header {
+	height: 600px;
+	width: 100%;
+	background-image: url('https://blackrockdigital.github.io/startbootstrap-clean-blog/img/post-bg.jpg');
+	background-size: cover;
+	list-style-type: none;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Times New Roman';
+}
+
+.intro {
+	margin-top: 13%;
+	text-align: left;
+	color: white;
+}
+
+.intro h1 {
+	font-weight: bolder;
+	font-size: 4.3em;
+}
+
+.intro h3{
+	font-weight: bold;
+	margin-top: -.5%;
+	font-size: 2em;
+}
+
+.intro h4 {
+	font-style: oblique;
+	font-weight: lighter;
+	margin-top: 4%;
+	font-size: 1em;
+}
+
+
+.blog-post {
+	margin-top: 10%;
+}
+
+#post-area p, #post-area blockquote {
+	font-size: 20px;
+	margin-top: 4%;
+}
+
+.section-title{
+	font-size: 70px;
+	margin-top: 4%;
+}
+
+img {
+	margin-top: 4%;
+	width: 100%;
+}
+
+.caption-text{
+	text-align: center;
+	font-style: italic;
+}
+
+#post-area .captioned-image p {
+	line-height: .2;
+	font-size: 12px;
+}
+
+footer .container {
+	height: 300px;
+}
+
+.contact {
+	text-align: center;
+}
+
+.social-media-icons {
+	padding-top:11px;
+	text-align: center;
+	height: 50px; width: 50px;
+	border-radius: 30px;
+	background-color:#333333;
+	color:white;
+}
+
+.fa-twitter:hover, .fa-facebook:hover, .fa-github:hover{
+	background-color: #0085A1;
+}
+
+.blog-post a {
+	color:black;
+	text-decoration: underline;
+}
+
+.footer-content {
+	padding: 10% 25% 3% 25%;
+}
